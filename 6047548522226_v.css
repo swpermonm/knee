@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a,p,span,h2,h3,h4,h5,h6,li,ol{ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0;
+    padding: 0;
+    font-style: inherit;
+    margin: 0;
+    border: none;
+   
+    box-sizing: border-box;
+
+}
+a{ text-decoration: none;}
+.clearfix{ clear: both;}
+
+.wk-head{
+   
+    background-color: rgb(0, 51, 102);
+
+}
+.wk-nave{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.left-container h1{
+font-size: 38px;
+line-height: 46px;
+
+}
+.left-nave{
+    display: block;
+    float: left;
+    line-height: 68px;
+}
+.left-nave img{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    /* float:left; */
+}
+.right-nave p{ text-align: right; color: #fff; line-height: 68px;}
+.right-nave{ float: right;}
+.logo{
+
+    width: 200px;
+    height: 30px;
+
+}
+
+.elementor-container{ 
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-content{ 
+    width: auto ; 
+    margin-right:300px;
+    overflow: hidden;
+   
+}
+.left-container{ overflow: hidden;}
+
+.rightbox { 
+    width:250px; 
+    float: right; 
+    margin-top: 10px; 
+   
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.rightbox img{
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+    display: block;
+}
+.right-centent{ 
+    position: fixed; 
+     width: 226px; 
+    height: auto; 
+    line-height: 30px;
+    border: 2px solid #ecf2f1;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.right-centent h4{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.right-centent img{ 
+    
+    max-width: 100%;
+    display: block; 
+    margin: 0 auto;
+}
+.product-btn{
+font-size: 20px;
+width: 100%;
+font-weight: 700;
+display: inline-block;
+background-color: #31c2b3;
+/* padding: 8px 8px; */
+color: #fff;
+text-align: center;
+border-radius: 28px;
+line-height: 46px;
+
+
+}
+.product-btn a{
+
+    color: #fff;
+}
+.product-btn:hover{
+    background: rgb(34, 146, 135);
+   
+}
+
+.post-author{
+    margin: 10px 0px;
+    color: #999;
+}
+
+.postbox{
+    width: 100%;
+}
+.postbox img{
+    width: 100%;
+    display: block;
+}
+
+.postbox p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px auto;
+    color: #333;
+}
+.postbox a{
+    color: #31c2b3;
+}
+
+.postbox ol,li,ul{
+    margin-bottom: 12px;
+    padding: 0;
+    
+
+}
+.postbox ul li{
+    padding-left: 30px;
+    background: url(https://downloader.anstrex.org/public/user_data/native_data/6041acc68f7f41.91676762/nearbyview.com_1615287401_604754698d64e1.43815407/original/604754888895a_v.svg) no-repeat left 3px;
+    background-size: 20px 20px;
+    list-style: none;
+
+}
+footer {
+    background-color: #17212c;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+.text-footer{
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-copy p {
+    padding-top: 15px;
+    color: #afbac6;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+.text-center {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.text-center ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+.text-center li {
+    display: inline-block;
+    border-right: 1px solid #33465b;
+    padding: 0 26px 0 24px;
+}
+.footer-fir{
+    display: block;
+    text-align: center;
+}
+.text-center a{
+    color: #fff;
+}
+.copyright{ color: #fff;}
+.ne{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.product-features{
+
+    width: 100%;
+    
+}
+.product-features img{
+width: 31%;
+display: block;
+float: left;
+padding: 9px;
+
+
+}
+.footer-refer ol{
+    margin: 0;
+    padding: 0;
+    color: #afbac6;
+    font-size: 13px;
+    list-style: none;
+    line-height: 6px;
+    
+}
+
+.footer-refer h5{
+    color:#afbac6 ;
+    margin-bottom: 5px;
+}
+.footer-refer{
+    padding: 2px;
+}
+
+
+
+@media only screen and (max-width: 768px)
+{   .right-nave p{ display: block;padding: 0 5px; font-size: 12px;}
+    .wk-nave{width: 100%;}
+    .left-container{width: 100%;}
+    .left-content{width: 100%;}
+    .rightbox{ width: 100%; display: none;}
+    .left-content{ padding: 0;}
+    .elementor-container{ padding: 5px;}
+    .footer-fir img{ width: 50% !important;}
+    .product-features img{ width: 28%;}
+
+}
